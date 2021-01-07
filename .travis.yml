@@ -5,6 +5,9 @@ python:
   - "3.7"
   - "3.8"
 # command to install dependencies
+before_install:
+ - sudo apt-get install -qq libgmp-dev libmpc-dev libmpfr-dev
+
 install:
   - pip install -r requirements.txt
   - pip install .
