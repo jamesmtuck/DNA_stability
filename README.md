@@ -20,7 +20,7 @@ As documentation for the softwarwe becomes available, it will be placed under th
 # System Requirements
 
 ## Hardware Requirements
-DORIS requires only a standard computer with enough RAM and compute power to support the needed operations.
+This code requires only a standard computer with enough RAM and compute power to support the needed operations.
 
 ## Software Requirements
 ### OS Requirements
@@ -31,6 +31,12 @@ This package is supported for macOS and Linux. The package has been tested on th
 
 Note that most OSes will support our software by using Docker.
 
+### Other Dependences
+
+The python packages used for high precision floating point operations have dependences with libraries written in other languages. They can be installed using common package managers:
+```
+sudo apt-get install -qq libgmp-dev libmpc-dev libmpfr-dev
+```
 ### Python Dependences
 
 Our code has been tested on python versions 3.5 to 3.8. It has the following dependences:
@@ -50,7 +56,7 @@ gmpy2
 # Installation Guide
 
 ## Use your local python environment
-If you already have python 3 installed on your system, the simplest thing to do is download or checkout the code from GitHub.  Then in the DORIS directory, run the following commands:
+If you already have python 3 installed on your system, the simplest thing to do is download or checkout the code from GitHub.  Then in the DNA_stability directory, run the following commands:
 
     git clone https://github.com/jamesmtuck/DNA_stability
     cd DNA_stability
