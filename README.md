@@ -1,5 +1,7 @@
 # DNA_stability
 
+[![Build Status](https://travis-ci.com/jamesmtuck/DNA_stability.svg?token=rCvdBqMzwWyNvxxUUbSh&branch=main)](https://travis-ci.com/jamesmtuck/DNA_stability)
+
 - [Overview](#overview)
 - [Documentation](#documentation)
 - [System Requirements](#system-requirements)
