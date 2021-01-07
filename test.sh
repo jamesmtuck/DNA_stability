@@ -1,2 +1,2 @@
 echo    "Run analysis ..."
-python3 ./stability.py 
+python3 ./tester.py 

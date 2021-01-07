@@ -532,9 +532,8 @@ def make_plots():
     compare_rs_rate(slope=[1e-3,5e-4,1e-4],L=[l for l in range(50,1020,20)])
     compare_density_vs_loss(slope=[ 10**(_/10.0) for _ in range(-80,-9, 10) ],L=[l for l in range(200,1100,200)])
     
-
-
 #test:
 #plot_binomials(256)    
 
-make_plots()
+if __name__ == "__main__":    
+    make_plots()
