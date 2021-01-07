@@ -31,15 +31,17 @@ This package is supported for macOS and Linux. The package has been tested on th
 
 Note that most OSes will support our software by using Docker.
 
-### Other Dependences
+### Library Dependences
 
 The python packages used for high precision floating point operations have dependences with libraries written in other languages. They can be installed using common package managers:
 ```
-sudo apt-get install -qq libgmp-dev libmpc-dev libmpfr-dev
+apt-get install libgmp-dev libmpc-dev libmpfr-dev
 ```
+If you use Docker, the provided Dockerfile will install the needed libraries.
+
 ### Python Dependences
 
-Our code has been tested on python versions 3.5 to 3.8. It has the following dependences:
+Our code has been written and tested on python versions 3.6 to 3.8. It has the following dependences:
 
 ```
 nose
